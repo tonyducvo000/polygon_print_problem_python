@@ -1,3 +1,34 @@
+Observations made:
+
+If n is even:
+- top point uses two stars
+- initial number of space for one side = (max_length - 2) / 2
+- the sequence in adding stars for top half is +2, +4, +2, +4, etc.
+For example, when n = 4, the number of stars is 2, 4, 8, 10 (see star column).
+This sequence is achieved by adding 2 to 2 = 4, 4 to 4 = 8, 2 to 8 = 10, etc.
+- similarly, the sequence for decrementing the number of stars for top half is -1, -2, -1, -2, etc.
+
+If n is odd:
+- top point uses one star
+- initial number of space for one side = (max_length - 1) / 2
+- the sequence in adding stars is +4, +2, +4, +2, etc
+For example, when n = 5, the number of stars is 1, 5, 7, 11 (see star column).
+This sequence is achieved by adding 4 to 1 = 5, 2 to 5 = 7, 4 to 7 = 11, etc.
+- similarly, the sequence for decrementing the number of stars for top half is -2, -1, -2, -1,  etc.
+
+The sequence for adding and decrement can be controlled by toggling evenIteration = not evenIteration,
+and addTwo = not addTwo
+
+For both odd and even lengths, the max_length (the middle row of the pentagon) can be calculated
+as max_length = (length_of_side * 3) - 2.
+
+For the number of space for the bottom half, the number simply increments by 1.  Similarly,
+the number of stars for the bottom simply decrements by 2.
+
+Printout is divided into top half and bottom half, since top half has two sides, and bottom half
+has three sides.
+
+============================================================
 
 height = 5
 length = 7

@@ -6,13 +6,11 @@ bottom_half_height = length_of_side
 row_index = 0
 
 if length_of_side % 2 == 0:  # even
-    isEven = True
     number_of_space = int((max_length - 2) / 2)
     number_of_stars = 2
     addTwo = True
     evenIteration = False
 else:  # odd
-    isEven = False
     number_of_space = int((max_length - 1) / 2)
     number_of_stars = 1
     addTwo = False
