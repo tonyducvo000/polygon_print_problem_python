@@ -16,6 +16,7 @@ For example, when n = 5, the number of stars is 1, 5, 7, 11 (see star column).
 This sequence is achieved by adding 4 to 1 = 5, 2 to 5 = 7, 4 to 7 = 11, etc.
 - similarly, the sequence for decrementing the number of stars for top half is -2, -1, -2, -1,  etc.
 
+Notes:
 The sequence for adding and decrement can be controlled by toggling evenIteration = not evenIteration,
 and addTwo = not addTwo
 
