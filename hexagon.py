@@ -1,4 +1,4 @@
-length_of_side = 6
+length_of_side = int(input("Enter the length of the side: "))
 height = (2*length_of_side) - 1
 number_of_space = length_of_side - 1
 

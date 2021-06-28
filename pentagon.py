@@ -1,4 +1,5 @@
-length_of_side = 6
+length_of_side = int(input("Enter the length of the side: "))
+
 max_length = (length_of_side * 3) - 2
 top_half_height = length_of_side - 1
 bottom_half_height = length_of_side
