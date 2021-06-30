@@ -55,9 +55,6 @@ Sample heptagon shape printout:
         * * * * * * * *         
           * * * * * *           
 
-Process finished with exit code 0
-   
-
 ```
 Sample octagon printout:
 
